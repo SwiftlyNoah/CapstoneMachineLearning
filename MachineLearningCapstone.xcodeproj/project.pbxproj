@@ -7,19 +7,80 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14027B4225C89C8900815294 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14027B4125C89C8900815294 /* HomeView.swift */; };
+		14027B4525C89FC100815294 /* DemoPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14027B4425C89FC100815294 /* DemoPicker.swift */; };
+		14027B4A25C8C50B00815294 /* ViewModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14027B4925C8C50B00815294 /* ViewModifiers.swift */; };
+		1414C77C25B4A61900628461 /* XrayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1414C77B25B4A61900628461 /* XrayView.swift */; };
+		142DFF2F25F11432004B196C /* XrayResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142DFF2E25F11432004B196C /* XrayResultsView.swift */; };
+		142DFF3225F11638004B196C /* CommentedCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142DFF3125F11638004B196C /* CommentedCode.swift */; };
+		1434726725EECB8A00309A7D /* LearnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1434726625EECB8A00309A7D /* LearnView.swift */; };
+		143E1CDF25C4D79000175DA7 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143E1CDE25C4D79000175DA7 /* Home.swift */; };
+		144B1A7625C9B0220047228C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144B1A7525C9B0220047228C /* Extensions.swift */; };
+		144B1A7A25C9B9AE0047228C /* DogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144B1A7925C9B9AE0047228C /* DogView.swift */; };
+		144B1A8E25C9D8E80047228C /* PhotoPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144B1A8D25C9D8E80047228C /* PhotoPicker.swift */; };
+		144B1A9725C9D9E20047228C /* DogPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144B1A9625C9D9E20047228C /* DogPickerView.swift */; };
+		144D79A725ED5FB200012318 /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144D79A625ED5FB200012318 /* PageControl.swift */; };
+		14568CE325E7164300C2CC13 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14568CE025E7164300C2CC13 /* BlurView.swift */; };
+		14568CE425E7164300C2CC13 /* AlertToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14568CE125E7164300C2CC13 /* AlertToast.swift */; };
+		14568CE525E7164300C2CC13 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14568CE225E7164300C2CC13 /* ActivityIndicator.swift */; };
+		14612F3A25DC785F0077172E /* DogResultsInterpreter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14612F3925DC785F0077172E /* DogResultsInterpreter.swift */; };
+		14612F3D25DC79DF0077172E /* DogModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14612F3C25DC79DF0077172E /* DogModels.swift */; };
+		1467A80525C4E6D90029E943 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1467A7FE25C4E6130029E943 /* LaunchScreen.storyboard */; };
 		146897F425B3C1300067CF7A /* MachineLearningCapstoneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146897F325B3C1300067CF7A /* MachineLearningCapstoneApp.swift */; };
 		146897F625B3C1300067CF7A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146897F525B3C1300067CF7A /* ContentView.swift */; };
 		146897F825B3C1300067CF7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 146897F725B3C1300067CF7A /* Assets.xcassets */; };
 		146897FB25B3C1300067CF7A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 146897FA25B3C1300067CF7A /* Preview Assets.xcassets */; };
+		149F47FA25C893B20000853E /* DemoLayout3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149F47F725C893B20000853E /* DemoLayout3.swift */; };
+		149F47FB25C893B20000853E /* DemoLayout2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149F47F825C893B20000853E /* DemoLayout2.swift */; };
+		149F47FC25C893B20000853E /* DemoLayout1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149F47F925C893B20000853E /* DemoLayout1.swift */; };
+		14BCDCCD25B5CD8D00B81C1B /* XrayPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BCDCCC25B5CD8D00B81C1B /* XrayPickerView.swift */; };
+		14C0AA5525B477FC00FB8E19 /* FilePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C0AA5425B477FC00FB8E19 /* FilePicker.swift */; };
+		14C0AA5825B4795D00FB8E19 /* CustomShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C0AA5725B4795D00FB8E19 /* CustomShape.swift */; };
+		14CFCD7225D329690050BB32 /* DogResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CFCD7125D329690050BB32 /* DogResultsView.swift */; };
+		14DABEFC25C4445000CCEA64 /* DogBreed.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 14DABEFB25C4445000CCEA64 /* DogBreed.mlmodel */; };
+		14DABEFF25C4448C00CCEA64 /* ImageDetectors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DABEFE25C4448C00CCEA64 /* ImageDetectors.swift */; };
+		14DABF0925C44AC200CCEA64 /* Pneumonia.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 14DABF0825C44AC200CCEA64 /* Pneumonia.mlmodel */; };
+		14E4BD4B25E929FC00614119 /* CameraPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E4BD4A25E929FC00614119 /* CameraPicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		14027B4125C89C8900815294 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		14027B4425C89FC100815294 /* DemoPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoPicker.swift; sourceTree = "<group>"; };
+		14027B4925C8C50B00815294 /* ViewModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifiers.swift; sourceTree = "<group>"; };
+		1414C77B25B4A61900628461 /* XrayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XrayView.swift; sourceTree = "<group>"; };
+		142DFF2E25F11432004B196C /* XrayResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XrayResultsView.swift; sourceTree = "<group>"; };
+		142DFF3125F11638004B196C /* CommentedCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentedCode.swift; sourceTree = "<group>"; };
+		1434726625EECB8A00309A7D /* LearnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnView.swift; sourceTree = "<group>"; };
+		143E1CDE25C4D79000175DA7 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		144B1A7525C9B0220047228C /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		144B1A7925C9B9AE0047228C /* DogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogView.swift; sourceTree = "<group>"; };
+		144B1A8D25C9D8E80047228C /* PhotoPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPicker.swift; sourceTree = "<group>"; };
+		144B1A9625C9D9E20047228C /* DogPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogPickerView.swift; sourceTree = "<group>"; };
+		144D79A625ED5FB200012318 /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
+		14568CE025E7164300C2CC13 /* BlurView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
+		14568CE125E7164300C2CC13 /* AlertToast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertToast.swift; sourceTree = "<group>"; };
+		14568CE225E7164300C2CC13 /* ActivityIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		14612F3925DC785F0077172E /* DogResultsInterpreter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogResultsInterpreter.swift; sourceTree = "<group>"; };
+		14612F3C25DC79DF0077172E /* DogModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogModels.swift; sourceTree = "<group>"; };
+		1467A7FE25C4E6130029E943 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		146897F025B3C1300067CF7A /* MachineLearningCapstone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MachineLearningCapstone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		146897F325B3C1300067CF7A /* MachineLearningCapstoneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MachineLearningCapstoneApp.swift; sourceTree = "<group>"; };
 		146897F525B3C1300067CF7A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		146897F725B3C1300067CF7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		146897FA25B3C1300067CF7A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		146897FC25B3C1300067CF7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		146897FC25B3C1300067CF7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = MachineLearningCapstone/Info.plist; sourceTree = SOURCE_ROOT; };
+		149F47F725C893B20000853E /* DemoLayout3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoLayout3.swift; sourceTree = "<group>"; };
+		149F47F825C893B20000853E /* DemoLayout2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoLayout2.swift; sourceTree = "<group>"; };
+		149F47F925C893B20000853E /* DemoLayout1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoLayout1.swift; sourceTree = "<group>"; };
+		14BCDCCC25B5CD8D00B81C1B /* XrayPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XrayPickerView.swift; sourceTree = "<group>"; };
+		14C0AA5425B477FC00FB8E19 /* FilePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilePicker.swift; sourceTree = "<group>"; };
+		14C0AA5725B4795D00FB8E19 /* CustomShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShape.swift; sourceTree = "<group>"; };
+		14C0AA5E25B47F5C00FB8E19 /* MachineLearningCapstone.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MachineLearningCapstone.entitlements; sourceTree = "<group>"; };
+		14CFCD7125D329690050BB32 /* DogResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogResultsView.swift; sourceTree = "<group>"; };
+		14DABEFB25C4445000CCEA64 /* DogBreed.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = DogBreed.mlmodel; sourceTree = "<group>"; };
+		14DABEFE25C4448C00CCEA64 /* ImageDetectors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDetectors.swift; sourceTree = "<group>"; };
+		14DABF0825C44AC200CCEA64 /* Pneumonia.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Pneumonia.mlmodel; sourceTree = "<group>"; };
+		14E4BD4A25E929FC00614119 /* CameraPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +94,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1434726425EECB7100309A7D /* AlertToast */ = {
+			isa = PBXGroup;
+			children = (
+				14568CE025E7164300C2CC13 /* BlurView.swift */,
+				14568CE125E7164300C2CC13 /* AlertToast.swift */,
+				14568CE225E7164300C2CC13 /* ActivityIndicator.swift */,
+			);
+			path = AlertToast;
+			sourceTree = "<group>";
+		};
+		144B1A9025C9D9270047228C /* Pickers */ = {
+			isa = PBXGroup;
+			children = (
+				14C0AA5425B477FC00FB8E19 /* FilePicker.swift */,
+				14027B4425C89FC100815294 /* DemoPicker.swift */,
+				144B1A8D25C9D8E80047228C /* PhotoPicker.swift */,
+				14E4BD4A25E929FC00614119 /* CameraPicker.swift */,
+			);
+			path = Pickers;
+			sourceTree = "<group>";
+		};
+		14568CDF25E7164300C2CC13 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				1434726425EECB7100309A7D /* AlertToast */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
 		146897E725B3C1300067CF7A = {
 			isa = PBXGroup;
 			children = (
@@ -52,11 +142,20 @@
 		146897F225B3C1300067CF7A /* MachineLearningCapstone */ = {
 			isa = PBXGroup;
 			children = (
-				146897F325B3C1300067CF7A /* MachineLearningCapstoneApp.swift */,
-				146897F525B3C1300067CF7A /* ContentView.swift */,
-				146897F725B3C1300067CF7A /* Assets.xcassets */,
-				146897FC25B3C1300067CF7A /* Info.plist */,
+				14568CDF25E7164300C2CC13 /* Libraries */,
+				149F47F325C8923B0000853E /* ViewModel */,
+				14DABF0E25C4511500CCEA64 /* MLModels */,
+				14DABF0C25C450C600CCEA64 /* View */,
 				146897F925B3C1300067CF7A /* Preview Content */,
+				146897F525B3C1300067CF7A /* ContentView.swift */,
+				14DABEFE25C4448C00CCEA64 /* ImageDetectors.swift */,
+				144B1A7525C9B0220047228C /* Extensions.swift */,
+				1467A7FE25C4E6130029E943 /* LaunchScreen.storyboard */,
+				146897F325B3C1300067CF7A /* MachineLearningCapstoneApp.swift */,
+				142DFF3125F11638004B196C /* CommentedCode.swift */,
+				146897FC25B3C1300067CF7A /* Info.plist */,
+				146897F725B3C1300067CF7A /* Assets.xcassets */,
+				14C0AA5E25B47F5C00FB8E19 /* MachineLearningCapstone.entitlements */,
 			);
 			path = MachineLearningCapstone;
 			sourceTree = "<group>";
@@ -67,6 +166,55 @@
 				146897FA25B3C1300067CF7A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		147A03CC25CEF1E400FBB169 /* DemoLayouts */ = {
+			isa = PBXGroup;
+			children = (
+				149F47F925C893B20000853E /* DemoLayout1.swift */,
+				149F47F825C893B20000853E /* DemoLayout2.swift */,
+				149F47F725C893B20000853E /* DemoLayout3.swift */,
+			);
+			path = DemoLayouts;
+			sourceTree = "<group>";
+		};
+		149F47F325C8923B0000853E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				14612F3925DC785F0077172E /* DogResultsInterpreter.swift */,
+				14612F3C25DC79DF0077172E /* DogModels.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		14DABF0C25C450C600CCEA64 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				144B1A9025C9D9270047228C /* Pickers */,
+				147A03CC25CEF1E400FBB169 /* DemoLayouts */,
+				14C0AA5725B4795D00FB8E19 /* CustomShape.swift */,
+				14BCDCCC25B5CD8D00B81C1B /* XrayPickerView.swift */,
+				1414C77B25B4A61900628461 /* XrayView.swift */,
+				142DFF2E25F11432004B196C /* XrayResultsView.swift */,
+				14CFCD7125D329690050BB32 /* DogResultsView.swift */,
+				144B1A9625C9D9E20047228C /* DogPickerView.swift */,
+				144B1A7925C9B9AE0047228C /* DogView.swift */,
+				144D79A625ED5FB200012318 /* PageControl.swift */,
+				143E1CDE25C4D79000175DA7 /* Home.swift */,
+				14027B4125C89C8900815294 /* HomeView.swift */,
+				1434726625EECB8A00309A7D /* LearnView.swift */,
+				14027B4925C8C50B00815294 /* ViewModifiers.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		14DABF0E25C4511500CCEA64 /* MLModels */ = {
+			isa = PBXGroup;
+			children = (
+				14DABEFB25C4445000CCEA64 /* DogBreed.mlmodel */,
+				14DABF0825C44AC200CCEA64 /* Pneumonia.mlmodel */,
+			);
+			path = MLModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,6 +233,8 @@
 			dependencies = (
 			);
 			name = MachineLearningCapstone;
+			packageProductDependencies = (
+			);
 			productName = MachineLearningCapstone;
 			productReference = 146897F025B3C1300067CF7A /* MachineLearningCapstone.app */;
 			productType = "com.apple.product-type.application";
@@ -112,6 +262,8 @@
 				Base,
 			);
 			mainGroup = 146897E725B3C1300067CF7A;
+			packageReferences = (
+			);
 			productRefGroup = 146897F125B3C1300067CF7A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,6 +278,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1467A80525C4E6D90029E943 /* LaunchScreen.storyboard in Resources */,
 				146897FB25B3C1300067CF7A /* Preview Assets.xcassets in Resources */,
 				146897F825B3C1300067CF7A /* Assets.xcassets in Resources */,
 			);
@@ -138,8 +291,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14027B4525C89FC100815294 /* DemoPicker.swift in Sources */,
+				142DFF2F25F11432004B196C /* XrayResultsView.swift in Sources */,
+				14612F3A25DC785F0077172E /* DogResultsInterpreter.swift in Sources */,
+				144B1A7A25C9B9AE0047228C /* DogView.swift in Sources */,
+				144D79A725ED5FB200012318 /* PageControl.swift in Sources */,
+				14DABEFF25C4448C00CCEA64 /* ImageDetectors.swift in Sources */,
+				14C0AA5825B4795D00FB8E19 /* CustomShape.swift in Sources */,
+				14027B4A25C8C50B00815294 /* ViewModifiers.swift in Sources */,
+				1434726725EECB8A00309A7D /* LearnView.swift in Sources */,
+				14612F3D25DC79DF0077172E /* DogModels.swift in Sources */,
 				146897F625B3C1300067CF7A /* ContentView.swift in Sources */,
+				149F47FB25C893B20000853E /* DemoLayout2.swift in Sources */,
+				14568CE525E7164300C2CC13 /* ActivityIndicator.swift in Sources */,
+				143E1CDF25C4D79000175DA7 /* Home.swift in Sources */,
+				144B1A7625C9B0220047228C /* Extensions.swift in Sources */,
+				14E4BD4B25E929FC00614119 /* CameraPicker.swift in Sources */,
+				14DABF0925C44AC200CCEA64 /* Pneumonia.mlmodel in Sources */,
+				149F47FA25C893B20000853E /* DemoLayout3.swift in Sources */,
+				14C0AA5525B477FC00FB8E19 /* FilePicker.swift in Sources */,
 				146897F425B3C1300067CF7A /* MachineLearningCapstoneApp.swift in Sources */,
+				14568CE425E7164300C2CC13 /* AlertToast.swift in Sources */,
+				14DABEFC25C4445000CCEA64 /* DogBreed.mlmodel in Sources */,
+				1414C77C25B4A61900628461 /* XrayView.swift in Sources */,
+				149F47FC25C893B20000853E /* DemoLayout1.swift in Sources */,
+				14CFCD7225D329690050BB32 /* DogResultsView.swift in Sources */,
+				14568CE325E7164300C2CC13 /* BlurView.swift in Sources */,
+				14027B4225C89C8900815294 /* HomeView.swift in Sources */,
+				144B1A9725C9D9E20047228C /* DogPickerView.swift in Sources */,
+				142DFF3225F11638004B196C /* CommentedCode.swift in Sources */,
+				144B1A8E25C9D8E80047228C /* PhotoPicker.swift in Sources */,
+				14BCDCCD25B5CD8D00B81C1B /* XrayPickerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,6 +379,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -252,6 +435,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -267,18 +451,24 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MachineLearningCapstone/MachineLearningCapstone.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 7;
 				DEVELOPMENT_ASSET_PATHS = "\"MachineLearningCapstone/Preview Content\"";
-				DEVELOPMENT_TEAM = 859DBKXQPY;
+				DEVELOPMENT_TEAM = RGM9JAFXFM;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = MachineLearningCapstone/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.NoahBrauner.MachineLearningCapstone;
+				MARKETING_VERSION = 1.3.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JasonBrauner.CapstoneProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -289,18 +479,24 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MachineLearningCapstone/MachineLearningCapstone.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 7;
 				DEVELOPMENT_ASSET_PATHS = "\"MachineLearningCapstone/Preview Content\"";
-				DEVELOPMENT_TEAM = 859DBKXQPY;
+				DEVELOPMENT_TEAM = RGM9JAFXFM;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = MachineLearningCapstone/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.NoahBrauner.MachineLearningCapstone;
+				MARKETING_VERSION = 1.3.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JasonBrauner.CapstoneProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
