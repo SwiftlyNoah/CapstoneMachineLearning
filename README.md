@@ -5,7 +5,7 @@
 <h3 style="margin: 0;">September 2020-May 2021</h3>
 
 ### Description
-This was my first "large-scall applicaiton" at over 3000 lines of code. The app features two machine learning models (Convolutional Neural Networks) trained by me:
+This was my first large-scall SwiftUI applicaiton at over 3000 lines of code. The app features two machine learning models (Convolutional Neural Networks) trained by me:
 - A pneumonia detector: built on 20,000 Chest X-ray images, distinguishes x-rays as either healthy or presenting pneumonia
 - A dog breed recognizer: built on 60,000 iamges of beloved dogs, can distinguish from 200+ breeds
 
